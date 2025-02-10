@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    
+}
+
+nav{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+
+}
+
+h1 {
+    margin-left: 0;
+    font-size: 1.5rem;
+
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-links ul li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50, 50%);
+    background-color: rgba( 0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.gallery-section{
+    padding: 20px;
+    text-align: cebnter;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minimax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+
+}
+
+
+.gallery-item{
+    background-color: blue;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+footer {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.footer-section{
+    width: 30%;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-section ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+
